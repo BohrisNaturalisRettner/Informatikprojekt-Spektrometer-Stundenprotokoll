@@ -18,12 +18,19 @@
 ### [Samstag, der 19.01.2019](#7)
 ### [Montag, der 21.01.2019](#8)
 ### [Dienstag, der 22.01.2019](#9)
+### [Dienstag, der 29.01.2019](#10)
+
+## Februar
+
+### [Samstag, der 02.02.2019](#11)
 
 ## Montag, der 17.12.2018<a name="1"></a>
 
-konzeptidee "spektrometer" verbindung mit physikunterricht
+In der heutigen Stunde begannen wir mit dem neuen Projekt im Fach Informatik. Wir haben uns bereits zuvor Gedanken gemacht wie unser nächstes Projekt aussehen soll und sind beide der Meinung, dass wir gerne Physical Computing machen würden. Der Zufall hat gewollt, dass HErr Buhl in den letzten Physikstunden viel mit dem Spektrometer gearbeitet hat und uns als "freiwillige Arbeit" die Möglichkeit gegeben hat ein solches selber zu bauen. So kamen wir auf die Idee Physik und Informatik zu verbinden und ein halbautomatisches Spektrometer zu bauen und zu programmieren. Wir stellten unsere Idee Herrn Buhl vor und dieser wirkte keineswegs abgeneigt.
 
 ## Dienstag, der 18.12.2018<a name="2"></a>
+
+Heute sind wir in unserer Planung konkreter geworden und haben Ideen zu unserem Konzept geschmiedet. Vom AUfbau her orientieren wir uns an dem Spektrometer, welches wir im Physikunterricht nutzen. Anstelle des menschlichen Auges stellt ein Lichtsensor die Maxima fest und das Rohr wird mithilfe eines Motors gedreht. Heute haben wir auch erste Versuche mit dem Arduino und dem Zubehör gemacht. Alleine aus der ersten Nutzung heraus haben wir uns schon für einen Steppermotor und nicht für einen Servomotor entschieden 
 
 konkrete ideen zum konzept geschmiedet, aufbau etc. entscheidung zugunsten steppermotor und nicht servo (steuerung und konstanz) 
 
@@ -54,3 +61,9 @@ stepper drehung, steps permrevolution, wie viele steps für viertel umdrehung, P
 ## Dienstag, der 22.01.2019<a name="9"></a>
 
 same wie gestern, commands finden für stop und ausgangsstellung 
+
+### Dienstag, der 29.01.2019<a name="10"></a>
+
+keine bewegung bei einstöpsel (cmd) 
+
+### Samstag, der 02.02.2019<a name="11"></a>
