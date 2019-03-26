@@ -120,14 +120,38 @@ keine bewegung bei einstöpsel (cmd)
 
 ### Montag, der 04.03.2019<a name="20"></a>
 
+Nach den Problemen, die in der letzten Zeit durch die unebene Holzplatte aufgetreten sind, haben wir heute im Informatikunterricht beschlossen, diese durch eine wesentlich stabilere und ebenere Holzplatte auszutauschen. Diesbezüglich sind wir am Nachmittag bei David zuhause fündig geworden und haben die 7mm Pressholzplatte gegen eine 20mm Spanplatte ausgewechselt. Die Befestigung der Aufbauten haben wir mit Winkeln umgesetzt, da wir so zum einen den Aufbau leichter verschieben und verändern können und zum anderen der Aufbau stabiler auf der Holzplatte steht. 
+
 ### Dienstag, der 05.03.2019<a name="21"></a>
+
+Heute haben wir den ersten "richtigen" Versuch durchgeführt, bei dem wir dieses mal auch die Wellenlänge berechnet haben. Der Soll-Wert beträgt 650nm und unser gemessener/errechneter Wert beträgt 620nm. Dieser Wert erscheint auf den ersten Blick sehr gut, allerdings ist er noch mit einigen Faktoren verbunden, die unsere Messgenauigkeit einschränken.
+
+### Samstag, der 09.03.2019
+
+Gitter ist angekommen
+Halterung Gitter und Laser 
 
 ### Montag, der 11.03.2019<a name="22"></a>
 
+ein Versuch, nicht gut
+
+### Dienstag, der 12.03.2019
+
+Startpunkt, Schlitz
+720nm Versuch 
+
 ### Montag, der 18.03.2019<a name="23"></a>
+
+stepper überlegungen 
 
 ### Dienstag, der 19.03.2019<a name="24"></a>
 
+stärkerer Stepper infos gesammelt 
+
 ### Montag, der 25.03.2019<a name="25"></a>
 
+In der heutigen Informatikstunde haben wir uns noch einmal intensiv mit dem Stundenprotokoll auseinandergesetzt, das wir morgen abgeben müssen. An einigen Daten erfolgten Ergänzungen, die wir 
+
 ### Dienstag, der 26.03.2019<a name="26"></a>
+
+Ebenso wie in der gestrigen Informatikstunde lag auch heute unser Fokus auf dem Stundenprotokoll, dessen Abgabe heute Abend erfolgt. In dieser Doppelstunde haben wir die letzten Punkte ergänzt und umformuliert.
