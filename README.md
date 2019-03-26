@@ -6,9 +6,13 @@
 
 ## Dezember
 
+<details>
+ <summary>Genauer</summary>
+
 ### [Montag, der 17.12.2018](#1)
 ### [Dienstag, der 18.12.2018](#2)
 ### [Freitag, der 28.12.2018](3)
+ </details> <hr>
 
 ## Januar
 
@@ -26,6 +30,9 @@
 
 ## Februar
 
+<details>
+ <summary>Genauer</summary>
+ 
 ### [Samstag, der 02.02.2019](#11)
 ### [Montag, der 04.02.2019](#12)
 ### [Dienstag, der 05.02.2019](#13)
@@ -35,8 +42,12 @@
 ### [Dienstag, der 19.02.2019](#17)
 ### [Montag, der 25.02.2019](#18)
 ### [Dienstag, der 26.02.2019](#19)
+ </details> <hr>
 
 ## März
+
+<details>
+ <summary>Genauer</summary>
 
 ### [Montag, der 04.03.2019](#20)
 ### [Dienstag, der 05.03.2019](#21)
@@ -45,6 +56,7 @@
 ### [Dienstag, der 19.03.2019](#24)
 ### [Montag, der 25.03.2019](#25)
 ### [Dienstag, der 26.03.2019](#26)
+</details> <hr>
 
 ## Montag, der 17.12.2018<a name="1"></a>
 
