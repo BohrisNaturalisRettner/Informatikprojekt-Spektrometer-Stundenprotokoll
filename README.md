@@ -14,6 +14,7 @@
 
 <details>
  <summary>Genauer</summary>
+ 
 ### [Dienstag, der 08.01.2019](#4)
 ### [Montag, der 14.01.2019](#5) 
 ### [Dienstag, der 15.01.2019](#6)
