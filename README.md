@@ -124,29 +124,27 @@ Nach den Problemen, die in der letzten Zeit durch die unebene Holzplatte aufgetr
 
 ### Dienstag, der 05.03.2019<a name="21"></a>
 
-Heute haben wir den ersten "richtigen" Versuch durchgeführt, bei dem wir dieses mal auch die Wellenlänge berechnet haben. Der Soll-Wert beträgt 650nm und unser gemessener/errechneter Wert beträgt 620nm. Dieser Wert erscheint auf den ersten Blick sehr gut, allerdings ist er noch mit einigen Faktoren verbunden, die unsere Messgenauigkeit einschränken.
+Heute haben wir den ersten "richtigen" Versuch durchgeführt, bei dem wir dieses mal auch die Wellenlänge berechnet haben. Die Wellenlänge des Lasers, den wir für unsere Versuche benutzen, beträgt 650nm und unser gemessener/errechneter Wert beträgt 620nm. Dieser Wert erscheint auf den ersten Blick sehr gut, allerdings ist er noch mit einigen Faktoren verbunden, die unsere Messgenauigkeit erheblich einschränken. Zum einen läuft die Bewegung des Stepper-Motors immer noch etwas unrund und zum anderen haben wir den "Nullpunkt" der Bewegung nicht festgelegt und verschieben den Arm immer per hand auf den geschätzten "Nullpunkt".
 
 ### Samstag, der 09.03.2019
 
-Gitter ist angekommen
-Halterung Gitter und Laser 
+Endlich ist unser eigenes Gitter mit 1000 Strichen pro mm angekommen. Im Zuge dessen haben wir auch endlich eine ordentliche Halterung sowohl für das Gitter, als auch für den Laser gebaut, damit diese nun feststehen und keine weiteren Ungenauigkeiten mit sich bringen. 
 
 ### Montag, der 11.03.2019<a name="22"></a>
 
-ein Versuch, nicht gut
+Heute haben wir zunächst im Informatikunterricht unsere Github Projektseite gepflegt und daraufhin am Nachmittag einen weiteren Versuch mit nun vermeintlich besseren Versuchsbedingungen durchgeführt. Allerdings entsprach das Ergebnis keineswegs unseren Vorstellungen und ebenso im Ansatz nicht dem Soll-Wert. Wir beschlossen daraufhin den Startpunkt für den Dreharm fix festzulegen, da dies eine der wenigen übrig gebliebenen möglichen Fehlerquellen war.
 
 ### Dienstag, der 12.03.2019
 
-Startpunkt, Schlitz
-720nm Versuch 
+Bevor wir heute den nächsten Versuch vorgenommen haben, haben wir zunächst den Startpunkt für den Dreharm mit einem Stopper festgelegt. Zusätzlich dazu haben wir den Schlitz vor dem Rohr verbessert indem wir zum einen schwarzes Klebeband nahmen, das um ein vielfaches weniger lichtdurchlässig ist und zum anderen den Schlitz verkleinerten. Der Versuch unter den vermutlich besten Bedingungen bis dahin ergab einen Wert von 720nm anstelle des Soll-Wertes von 650nm. Dieser Wert ist für uns zwar durchaus akzeptabel, aber bei weitem nicht das Optimum. 
 
 ### Montag, der 18.03.2019<a name="23"></a>
 
-stepper überlegungen 
+Aufgrund unserer anhaltenden Unzufriedenheit über die unrunde Bewegung des Armes, die so vermuten wir, zu den von uns erreichten Messergebnissen führt, überlegten wir welche Gründe dies noch haben könnte. Neben dem Stabilisationsrad, welches wir in naher Zukunft einmal ölen wollen, könnte auch der Stepper-Motor das Problem sein, da dieser eine verhältnismäßig große Masse bewegen muss. Wir überlegten nun, ob wir uns einen stärkeren Stepper-Motor kaufen.
 
 ### Dienstag, der 19.03.2019<a name="24"></a>
 
-stärkerer Stepper infos gesammelt 
+Auf unsere gestrigen Überlegungen zu einem stärkeren Stepper-Motor folgte heute eine ausgedehnte Internetrecherche in diversen Online-Shops und Foren, welche Stepper-Motoren stärker und schwächer sind und welche für unsere Belange am besten geeignet sind. Zum Schluss hatten wir zwar einige Favoriten, haben allerdings noch keine endgültige Entscheidung getroffen. 
 
 ### Montag, der 25.03.2019<a name="25"></a>
 
