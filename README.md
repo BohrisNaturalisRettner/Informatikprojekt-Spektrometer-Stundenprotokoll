@@ -131,7 +131,7 @@ Heute haben wir Besorgungen für den ersten Bau gemacht. Im Baumarkt haben wir f
 
 ## Sonntag, der 20.01.2019<a name="e"></a>
 
-Heute haben wir eine erste Konstruktion aufgebaut. wir haben den Arduino sowie zwei Holzblöcke (aus dem Keller) auf die Holzplatte geschraubt. Zwischen den Holzblöcken haben wir den Stepper befestigt. Dieser konnte sich nun drehen. Außerdem haben wir einige der Verbindungen gelötet und den Photosensor in die Kabelbox gesteckt. An der einen Seite haben wir ein kleines Loch in die Box gebohrt, damit der Sensor „herausgucken“ kann, aber von den anderen Seiten fest sitzt und abgedunkelt ist. Aufgefallen ist uns, dass der Motor und die Konstruktion im allgemeinen den Schwenkarm nicht auf einer Höhe halten können werden. Es fehlt also noch ein Schwenkarm und die Befestigung desselben. 
+Heute haben wir eine erste Konstruktion aufgebaut. Wir haben den Arduino sowie zwei Holzblöcke (aus dem Keller) auf die Holzplatte geschraubt. Zwischen den Holzblöcken haben wir den Stepper befestigt. Dieser konnte sich nun drehen. Außerdem haben wir einige der Verbindungen gelötet und den Photosensor in die Kabelbox gesteckt. An der einen Seite haben wir ein kleines Loch in die Box gebohrt, damit der Sensor „herausgucken“ kann, aber von den anderen Seiten fest sitzt und abgedunkelt ist. Aufgefallen ist uns, dass der Motor und die Konstruktion im allgemeinen den Schwenkarm nicht auf einer Höhe halten können werden. Es fehlt also noch ein Schwenkarm und die Befestigung desselben. 
 
 <img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/IMG_2769.jpg" width="1500">
 
