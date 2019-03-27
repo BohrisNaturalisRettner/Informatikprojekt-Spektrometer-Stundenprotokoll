@@ -139,11 +139,11 @@ Heute haben wir eine erste Konstruktion aufgebaut. Wir haben den Arduino sowie z
 
 ## Montag, der 21.01.2019<a name="8"></a>
 
-Nachdem wir uns in der Informatikstunde näher mit Github auseinandergesetzt haben, sind wir für diese Besorgungen heute ein weiteres Mal in den Baumarkt gefahren. Dort haben wir eine kleine Metallplatte mit Löchern als Schwenkarm besorgt und ein kleines Teil, um den Arm an der Welle des Motors zu befestigen. Zuhause haben wir dann versucht, die Verbindung herzustellen jedoch hat dies weder mit noch ohne Kleber noch auf irgendwelche anderen Wege funktioniert. Wir werden deshalb erneut in den Baumarkt fahren, um ein besseres Teil zu besorgen.
+Nachdem wir uns in der Informatikstunde näher mit Github auseinandergesetzt haben, sind wir für diese Besorgungen heute ein weiteres Mal in den Baumarkt gefahren. Dort haben wir eine kleine Metallplatte mit Löchern als Schwenkarm besorgt und ein kleines Teil, um den Arm an der Welle des Motors zu befestigen. Zuhause haben wir dann versucht, die Verbindung herzustellen, jedoch hat dies weder mit noch ohne Kleber noch auf irgendwelche anderen Wege funktioniert. Wir werden deshalb erneut in den Baumarkt fahren, um ein besseres Teil zu besorgen.
 
 ## Samstag, der 02.02.2019<a name="11"></a>
 
-Im Baumarkt haben wir viel gefunden, aber auch auf Nachfrage bei Mitarbeitern kein passendes Teil zum verbinden. Das ist schon sehr frustrierend, da ohne diese Verbindung nicht mal erste Testläufe möglich sind. 
+Im Baumarkt haben wir viel gefunden, aber auch auf Nachfrage bei Mitarbeitern kein passendes Teil zum Verbinden. Das ist schon sehr frustrierend, da ohne diese Verbindung nicht mal erste Testläufe möglich sind. 
 
 ## Sonntag, der 03.02.2019<a name="f"></a>
 
