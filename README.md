@@ -98,7 +98,6 @@ Bei der Beschäftigung mit Motoren sind wir nach Empfehlung von Herrn Buhl auf d
 
 Heute haben wir eine weitere Funktionsweise unseres Projektes überprüft. Wir wollten anders als bisher keine direkte Reaktion von LEDs, Servos etc. bewirken, sondern erreichen, dass sich die Informationen gemerkt und erst am Ende addiert ausgelesen werden. Dabei haben wir uns von unserem ersten Projekt auf Code.org inspirieren lassen. Dort haben wir vermehrt mit Variablen gearbeitet, die bei bestimmten Aktionen hochgehen und sich so Informationen „merken“. Um dies praktisch in einem Versuch umzusetzen, haben wir zwei Lichtsensoren an eine Led gekoppelt. Diese soll nur leuchten, wenn der eine Lichtsensor ein sehr helles und der andere ein sehr dunkles Licht wahrnimmt. Dabei ist die zeitliche Abfolge egal, da bei Erreichen eines bestimmten Wertes eines Sensors eine Variable (hier: Counter genannt) auf 1 gesetzt wird. Nachdem das 2. Ereignis eintritt, sind nun beide Counter auf 1 und die LED leuchtet somit. 
 
-code LED Fotosensor
 <img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/2%20Sensoren%20%2B%20LED%20Setuph.png" alt="image" width="1500">
 
 <img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/2%20Sensoren%20%2B%20LEDh.png" alt="image" width="1500">
@@ -109,11 +108,11 @@ code LED Fotosensor
 
 Nachdem der Fotosensor und die Counter funktionieren, ist nun der Motor als letzte große Komponente an der Reihe. Für die Stromversorgung haben wir ein altes Handykabel, dessen Stecker vorne nicht mehr funktioniert hat, genommen und den Stecker abgetrennt. Das Kabel haben wir dann abisoliert und mit Hilfe einer Lüsterklemme mit Kabeln aus dem Starterkit verbunden, die in den Anschluss beim Controller Panel des Steppers passen. Die Stromversorgung stand also. Anschließend haben wir aus dem DroneBot Workshop weitere Codes übernommen und so verschiedene Geschwindigkeiten und Drehungen getestet. Nach einigem Probieren wurde uns klar, welche Teile der Befehle welche Konsequenzen bewirken und der ersten Version unseres Spektrometers steht jetzt nichts mehr im Wege. 
 
-kabelanschluss
-Bild Stepper Aufbau?
 <img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/dronebot1.png" alt="image" width="1500">
 
 <img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/droneBot%202.png" alt="image" width="1500">
+
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/handykabel.jpg"1500">
 
 ## Freitag, der 18.01.2019
 
@@ -122,8 +121,6 @@ Heute haben wir das Konzept für den Bau erstellt. Der Aufbau soll in eine Kiste
 ## Samstag, der 19.01.2019<a name="7"></a>
 
 Heute haben wir Besorgungen für den ersten Bau gemacht. Im Baumarkt haben wir für uns nützlich aussehende Komponenten gekauft. Dazu gehörte eine Gardinenstange samt Halterung als Rohr, Lautsprecherkabel als weitere Kabelverbindungen, ein Lötkolben mit Lötzinn, eine Kabelbox, in der der Lichtsensor nochmal extra abgedunkelt ist, Schrauben, Schrumpfkabel, Kabelverbinder und das Holz für den Untergrund der Konstruktion und die Box am Ende.
-
-Bild Einkauf?
 
 ## Sonntag, der 20.01.2019
 
@@ -157,6 +154,10 @@ Heute haben wir uns auf Github erneut mit dem Stundenprotokoll auseinandergesetz
 
 In der heutigen Doppelstunde haben wir alle Materialen mitgenommen, konnten aber ohne die fehlende Verbindung nicht an der Konstruktion weiterarbeiten. Wir haben gegoogelt (wie in den Tagen zuvor) und überlegt, bestimmte Teile im Internet zu bestellen. Bis unser Blick auf eine Zange gefallen ist. Diese kann die Welle des Motors festhalten und an den Schwenkarm befestigt diesen bewegen. Das hat uns so begeistert, endlich einen Versuch starten zu können, dass wir alle Befestigungen provisorisch mit Kabelbindern gemacht haben. Für den Testlauf haben wir aus der Gesamtzahl der Steps für eine Umdrehung die Steps für 90 Grad ausgerechnet (128) und diese in 9 Bereiche eingeteilt. Die Zange halten wir mit einem Kabelbinder zusammen. Weitere Kabelbinder halten die Zange an dem Arm fest und den Lichtsensor am Ende des Arms in der Position. Dieser ist für die ersten Versuche ohne Rohr nach außen gekehrt. Wir haben mehrere Leute wie Torben und Teda dazu geholt und das Program gestartet. Der Motor drehte sich und der Arm sich mit! Wir haben dann mit Handytaschenlampen die Maxima simuliert. Da wir das Licht bündeln mussten, um einigermaßen genaue Bereiche zu haben, haben wir Teile der Gardinenstange vor das Licht gehalten. Und tatsächlich: Es wurden an den Bereichen, in denen wir geleuchtet hatten, Ausschläge wahrgenommen. Um ein besseres Ergebnis zu erzielen, haben wir das Ende der Röhre mit Tape abgeklebt, sodass nur ein kleiner Schlitz frei war. So konnten wir die Bereiche provisorisch minimieren.
 
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/zange.jpg" width="1500">
+
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/schlitz.jpg" width="1500">
+
 ### Samstag, der 09.02.2019
 
 Die in der letzten Doppelstunde gebaute Konstruktion hatte jedoch noch einige Fehler. Zum Beispiel war die Stepanzahl nicht begrenzt. Heute haben wir versucht, dieses Problem zu lösen. Jedoch hat sich der Motor, je nachdem, was wir probiert haben, entweder immer weiter gedreht oder, wenn er nach einer Vierteldrehung auf dem Weg zurück war, sich unendlich in die andere Richtung gedreht.
@@ -165,17 +166,19 @@ Die in der letzten Doppelstunde gebaute Konstruktion hatte jedoch noch einige Fe
 
 Wir haben nun die Lösung gefunden. Solange die Steps weniger als die STEPS_PER_OUT_REV/16 sind, geht der Motor die „Steps Required“, also in die eine, und nach Erreichen der Stepanzahl geht er „-StepsRequired“ und somit in die Gegenrichtung, bis die STEPS_PER_OUT_REV/8 erreicht sind. (Für eine Vierteldrehung teilt man die Gesamtanzahl für eine Drehung durch vier, um 90 Grad zu erhalten und nochmal durch 4, da der Motor immer 4 Schritte in einem Durchlauf läuft (Stepsrequired = 4)). So dreht der Motor beim Einstecken des Arduino eine Vierteldrehung und fährt dann wieder in die Ausgangsposition zurück. Ein Problem, das bei Beobachtung aufgefallen ist, ist jedoch, dass diese Startposition sich jedes Mal verschiebt, da der Motor beim Einstecken schon ein paar Schritte geht, ohne die Steps zu zählen. Daher müssen wir wahrscheinlich diese Schritte zählen und mit anderen Befehlen diese Schritte wieder zurück gehen.
 
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/90%C2%B0.png" width="1500">
+
 ### Dienstag, der 12.02.2019<a name="15"></a>
 
 Da wir festgestellt haben, dass der Motor nicht immer gleich weit geht und diese Lösung außerdem recht umständlich wäre, haben wir uns heute um einen Startknopf gekümmert. Dieser könnte bewirken, dass der Motor sich erst dreht, wenn er Strom bekommt, und daher beim Einstecken nicht sofort dreht. So könnte das System erstmal starten, bevor der Motor sich dreht. Außerdem wollen wir in unserer Endversion sowieso einen Schalter zum Starten haben. Also haben wir aus dem Kabel einer alten Lampe aus dem Keller den Schalter ausgeschnitten und an den Arduino angeschlossen. Dieser ist auch an den analogen Eingang gekoppelt. Ist der Schalter aus, ist das Signal gleich Null. Ist der Schalter an, ist das Signal höher. Der Schalter soll beim Anschluss des Arduino an den Computer ausgeschaltet sein, damit der Stepper sich nicht vorher dreht. Und tatsächlich hat unsere Vermutung gestimmt. Der Motor dreht sich am Anfang nicht mehr. Wird der Schalter nun umgelegt, dreht sich der Motor und die Steps fangen an zu zählen. Am Ende soll, wie in dem einen vorherigen Versuch, das Ergebnis/ die LEDs solange angezeigt werden, bis der Schalter wieder umgelegt wird. Dieser resettet dann alle Variablen. Wird er wieder eingeschaltet, fängt der Durchlauf von vorne an. 
+
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/schalter%20foto.jpg"1500">
 
 ### Montag, der 18.02.2019<a name="16"></a>
 
 In der heutigen Informatikstunde haben wir auf Github mit der Projektseite begonnen, soweit dies zu dem Zeitpunkt möglich ist. 
 
 ### Dienstag, der 19.02.2019<a name="17"></a>
-
-unebene Holzplatte, weitere Taschenlampenversuche, unflüssige Bewegung
 
 Bei weiteren "Taschenlampenversuchen" ist uns vermehrt aufgefallen, dass die Bewegung des rotierenden Arms sehr unflüssig ist und somit später nicht zu der gewünschten Präzision führen wird. Dies führen wir auf die Holzplatte zurück, auf der unser Aufbau steht. Diese ist zum einen sehr dünn und biegsam und zum anderen bereits leicht verbogen, das heißt sie hat eine verhältnismäßig große Welle drin, die die Bewegung des Arms erheblich stört. 
 
@@ -187,9 +190,13 @@ Auch an diesem Montag standen erneut das Stundenprotokoll und die Projektseite i
 
 In der heutigen Doppelstunde haben wir weitere Verbesserungen am Auswertungsverfahren vorgenommen. Einerseits haben wir die Geschwindigkeit des Motors stark reduziert, in der Hoffnung das dieser dadurch stabiler läuft und uns die Auswertung der Orte an denen Licht wahrgenommen wird, leichter fällt. Andererseits haben wir die 90°, die der Motor zurücklegt in kleinere Einzelbereiche aufgeteilt, durch weitere Variablen. Zunächst haben wir mit 9 Variablen gearbeitet, allerdings war uns natürlich klar, das neun Variablen bei weitem nicht reichen um konkrete Winkel festzustellen. Deswegen haben wir noch im Unterricht eine Kopie des Codes mit 32 Variablen angefertigt und eine Version mit 64 Variablen begonnen. Diese haben wir am selben Abend noch beendet und zusätzlich eine Version mit 128 Variablen geschrieben. Mit dieser kann man den Winkel nun auf 0,7° Grad genau bestimmen.
 
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/nesute%20neun.png"1500">
+
 ### Montag, der 04.03.2019<a name="20"></a>
 
 Nach den Problemen, die in der letzten Zeit durch die unebene Holzplatte aufgetreten sind, haben wir heute im Informatikunterricht beschlossen, diese durch eine wesentlich stabilere und ebenere Holzplatte auszutauschen. Diesbezüglich sind wir am Nachmittag bei David zuhause fündig geworden und haben die 7mm Pressholzplatte gegen eine 20mm Spanplatte ausgewechselt. Die Befestigung der Aufbauten haben wir mit Winkeln umgesetzt, da wir so zum einen den Aufbau leichter verschieben und verändern können und zum anderen der Aufbau stabiler auf der Holzplatte steht. 
+
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/winkel.jpg"1500">
 
 ### Dienstag, der 05.03.2019<a name="21"></a>
 
@@ -197,11 +204,15 @@ Heute haben wir den ersten "richtigen" Versuch durchgeführt, bei dem wir dieses
 
 ### Samstag, der 09.03.2019
 
-Endlich ist unser eigenes Gitter mit 1000 Strichen pro mm angekommen. Im Zuge dessen haben wir auch endlich eine ordentliche Halterung sowohl für das Gitter, als auch für den Laser gebaut, damit diese nun feststehen und keine weiteren Ungenauigkeiten mit sich bringen. 
+Endlich ist unser eigenes Gitter mit 1000 Strichen pro mm angekommen. Im Zuge dessen haben wir auch endlich eine ordentliche Halterung sowohl für das Gitter, als auch für den Laser gebaut, damit diese nun feststehen und keine weiteren Ungenauigkeiten mit sich bringen.
+
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/befestigung%20laser%20und%20gitter.jpg"1500">
 
 ### Montag, der 11.03.2019<a name="22"></a>
 
 Heute haben wir zunächst im Informatikunterricht unsere Github Projektseite gepflegt und daraufhin am Nachmittag einen weiteren Versuch mit nun vermeintlich besseren Versuchsbedingungen durchgeführt. Allerdings entsprach das Ergebnis keineswegs unseren Vorstellungen und ebenso im Ansatz nicht dem Soll-Wert. Wir beschlossen daraufhin den Startpunkt für den Dreharm fix festzulegen, da dies eine der wenigen übrig gebliebenen möglichen Fehlerquellen war.
+
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/startpunkt.jpg"1500">
 
 ### Dienstag, der 12.03.2019
 
