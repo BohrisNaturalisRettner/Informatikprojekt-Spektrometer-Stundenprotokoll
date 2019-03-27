@@ -66,22 +66,19 @@ In der heutigen Stunde begannen wir mit dem neuen Projekt im Fach Informatik. Wi
 
 Heute haben wir uns dafür entschieden, mit dem Arduino zu arbeiten. Zum einen soll die Arbeit mit dem Arduino deutlich einfacher zum Anfangen sein als zum Beispiel „Rasberry Pie“, was uns als Anfängern natürlich zugute kommt. Zum anderen haben wir außerdem durch meinen Bruder bereits einen Arduino Uno samt Starterkit. Nach der Entscheidung haben wir mit den ersten Schritten angefangen. Dafür haben wir den Arduino das erste Mal an den Computer angeschlossen. Nach einiger Recherche im Internet haben wir uns für den Arduino Webeditor entschieden, um auch getrennt arbeiten zu können. Dafür haben wir ein Konto bei Arduino Create erstellt und das nötige Plugin installiert. Der Arduino konnte nun per USB an den Computer angeschlossen werden und war einsatzbereit. Als erstes Experiment haben wir eine LED mit dem Arduino angesteuert. Dafür haben wir uns über den nötigen Widerstand informiert, damit die Lampe nicht durchbrennt. Im Internet haben wir Anleitungen für den Anschluss an den Arduino und die richtigen Codes gefunden. Der erste einfacheVersuch bestand darin, eine rote LED, die über das Steckbrett angeschlossen ist, zum Leuchten zu bringen Nachdem dies (erstaunlich) schnell und gut funktioniert hat, war unser zweiter Test, ein Blinken der LED zu erreichen. Dies war auch ohne Probleme zu lösen.
 
-Bild LED
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/Ledh.png" alt="image" width="1500">
 
 ## Mittwoch, der 19.12.2018
 
 Einer der wichtigsten Faktoren für unser Projekt wird die Erkennung der Maxima sein. Dafür haben wir den Fotosensor, den wir für unser Projekt brauchen, bei Herrn Buhl „in Auftrag“ gegeben. Dieser hat drei verschiedene Sensoren bestellt. Da wir, bis die Sensoren angekommen sind, nicht an dem Projekt an sich weiterarbeiten können, haben wir uns nach den ersten erfolgreichen Experimenten mit der LED gestern an die zweite wichtige Komponente (den Motor) gewagt. Wir haben uns für den Servo entschieden, da dieser am leichtesten zu verbinden und zu bedienen zu sein scheint und den voraussichtlich benötigten Bewegungsradius abdeckt. Den Servo haben wir über ein Potentiometer so angeschlossen, dass dieser sich bei Drehen des Potentiometers im gleichen Winkel mitdreht.  
 
-Bild Servo
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/Servo%20Potentiometerh.png" alt="image" width="1500">
 
 ## Montag, der 24.12.2018
 
 Heute habe ich (David) mich mit Herrn Buhl getroffen und die photo Sensoren bekommen. Natürlich konnten wir nicht abwarten, erste Experimente mit den Sensoren zu beginnen. Den simpelsten Sensor haben wir nach einer im Internet gefundenen Skizze an den analogen Anschluss des Arduino und  den Strom angeschlossen und den richtigen Widerstand gefunden. Den Wert des Sensors haben wir uns im Monitor des Arduino Editors anzeigen lassen. Nachdem wir ein Signal empfangen haben, haben wir auch den zweiten Teil der Skizze, die Kopplung an eine LED, umgesetzt und dafür den Code des Sensors mit dem der Led verknüpft. Hierbei leuchtet die LED, wenn der von dem Sensor gemessene Wert eine bestimmte Zahl überschreitet.
 
-https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/fotosensor%20LED.JPG
-https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/Servo%20Lichtsensor.PNG
-bild Skizze
-bild eigener code
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/fotosensor%20LED.JPG" alt="image" width="1500">
 
 ## Freitag, der 28.12.2018<a name="3"></a>
 
@@ -91,7 +88,7 @@ Im Skiurlaub haben wir unser Konzept besprochen und unsere Vorgehensweise festge
 
 Heute haben wir uns ein weiteres Mal mit dem Fotosensor und dem Servo Motor beschäftigt. Jedem Signal des Photosensors haben wir eine Gradzahl des Servomotors zugeordnet. Je nach Lichtsignal hat sich dieser Servomotor nun also gedreht und so die Helligkeit angezeigt. Grundsätzlich hat dies funktioniert, jedoch war das Ergebnis teilweise sehr ungenau. Der Servo ist gesprungen oder hat verzögert reagiert. Dies passierte auch, als wir wieder den alten Aufbau mit dem Potentiometer probiert haben. Wir sind also zu dem Schluss gekommen, dass ein Servo nicht für unser Projekt geeignet ist, da das Projekt eine hohe Präzision erfordert und der Servo ohnehin zu schwach wäre. Es bleibt also eine offene Frage, was unser Motor sein wird.
 
-bild servo foto
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/Servo%20Lichtsensorh.png" alt="image" width="1500">
 
 ## Samstag, der 12.01.2019
 
@@ -101,17 +98,22 @@ Bei der Beschäftigung mit Motoren sind wir nach Empfehlung von Herrn Buhl auf d
 
 Heute haben wir eine weitere Funktionsweise unseres Projektes überprüft. Wir wollten anders als bisher keine direkte Reaktion von LEDs, Servos etc. bewirken, sondern erreichen, dass sich die Informationen gemerkt und erst am Ende addiert ausgelesen werden. Dabei haben wir uns von unserem ersten Projekt auf Code.org inspirieren lassen. Dort haben wir vermehrt mit Variablen gearbeitet, die bei bestimmten Aktionen hochgehen und sich so Informationen „merken“. Um dies praktisch in einem Versuch umzusetzen, haben wir zwei Lichtsensoren an eine Led gekoppelt. Diese soll nur leuchten, wenn der eine Lichtsensor ein sehr helles und der andere ein sehr dunkles Licht wahrnimmt. Dabei ist die zeitliche Abfolge egal, da bei Erreichen eines bestimmten Wertes eines Sensors eine Variable (hier: Counter genannt) auf 1 gesetzt wird. Nachdem das 2. Ereignis eintritt, sind nun beide Counter auf 1 und die LED leuchtet somit. 
 
-https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/2%20Sensoren%20%2B%20LED.PNG
 code LED Fotosensor
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/2%20Sensoren%20%2B%20LED%20Setuph.png" alt="image" width="1500">
+
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/2%20Sensoren%20%2B%20LEDh.png" alt="image" width="1500">
+
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/IMG_2708.jpg" alt="image" width="1500">
 
 ## Dienstag, der 15.01.2019<a name="6"></a>
 
 Nachdem der Fotosensor und die Counter funktionieren, ist nun der Motor als letzte große Komponente an der Reihe. Für die Stromversorgung haben wir ein altes Handykabel, dessen Stecker vorne nicht mehr funktioniert hat, genommen und den Stecker abgetrennt. Das Kabel haben wir dann abisoliert und mit Hilfe einer Lüsterklemme mit Kabeln aus dem Starterkit verbunden, die in den Anschluss beim Controller Panel des Steppers passen. Die Stromversorgung stand also. Anschließend haben wir aus dem DroneBot Workshop weitere Codes übernommen und so verschiedene Geschwindigkeiten und Drehungen getestet. Nach einigem Probieren wurde uns klar, welche Teile der Befehle welche Konsequenzen bewirken und der ersten Version unseres Spektrometers steht jetzt nichts mehr im Wege. 
 
-
-drone Bot Code
 kabelanschluss
 Bild Stepper Aufbau?
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/dronebot1.png" alt="image" width="1500">
+
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/droneBot%202.png" alt="image" width="1500">
 
 ## Freitag, der 18.01.2019
 
@@ -127,13 +129,13 @@ Bild Einkauf?
 
 Heute haben wir eine erste Konstruktion aufgebaut. wir haben den Arduino sowie zwei Holzblöcke (aus dem Keller) auf die Holzplatte geschraubt. Zwischen den Holzblöcken haben wir den Stepper befestigt. Dieser konnte sich nun drehen. Außerdem haben wir einige der Verbindungen gelötet und den Photosensor in die Kabelbox gesteckt. An der einen Seite haben wir ein kleines Loch in die Box gebohrt, damit der Sensor „herausgucken“ kann, aber von den anderen Seiten fest sitzt und abgedunkelt ist. Aufgefallen ist uns, dass der Motor und die Konstruktion im allgemeinen den Schwenkarm nicht auf einer Höhe halten können werden. Es fehlt also noch ein Schwenkarm und die Befestigung desselben. 
 
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/IMG_2769.jpg" width="1500">
+
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/IMG_2770.jpg" alt="image" width="1500">
+
 ## Montag, der 21.01.2019<a name="8"></a>
 
 Nachdem wir uns in der Informatikstunde näher mit Github auseinandergesetzt haben, sind wir für diese Besorgungen heute ein weiteres Mal in den Baumarkt gefahren. Dort haben wir eine kleine Metallplatte mit Löchern als Schwenkarm besorgt und ein kleines Teil, um den Arm an der Welle des Motors zu befestigen. Zuhause haben wir dann versucht, die Verbindung herzustellen jedoch hat dies weder mit noch ohne Kleber noch auf irgendwelche anderen Wege funktioniert. Wir werden deshalb erneut in den Baumarkt fahren, um ein besseres Teil zu besorgen.
-
-## Dienstag, der 22.01.2019<a name="9"></a>
-
-
 
 ### Samstag, der 02.02.2019<a name="11"></a>
 
@@ -141,7 +143,11 @@ Im Baumarkt haben wir viel gefunden, aber auch auf Nachfrage bei Mitarbeitern ke
 
 ### Sonntag, der 03.02.2019
 
-Um die Funktionsweise nochmal genauer zu überprüfen, haben wir heute die finale (?) Version unseres Codes geschrieben. Da es sich um eine konstante Geschwindigkeit des Steppers handelt, gibt es einen Zusammenhang zwischen der Zeit und den steps, die der Motor geht. Die Variablen gehen auf 1, wenn in dem jeweiligen zeitlichen Intervall (step-Bereich) das Signal des Sensors eine bestimmte Zahl überschreitet. Um dies zu testen, haben wir uns im Monitor die steps, das Signal des Lichtsensors und die Counter untereinander anzeigen lassen und haben bei verschiedenen Step-Anzahlen Licht auf den Sensor gelassen und überprüft, ob der Counter steigt. Anschließend haben wir 2 LEDs (eine grüne, eine rote) angeschlossen, die jeweils für einen bestimmten Counter, also Bereich standen. Leuchten sollten diese aber erst, wenn der Motor die 90° gedreht hat. Daher haben wir auch dies als Bedingung in unseren Code aufgenommen, damit nach Ablauf der 90° entweder eine der beiden, beide oder gar keine leuchtet, jedoch keine vorher leuchtet und auch keine wieder ausgeht. Dies hat einwandfrei funktioniert, was unsere Laune bezogen auf das Projekt wenigstens ein bisschen gebessert hat. 
+Um die Funktionsweise nochmal genauer zu überprüfen, haben wir heute die finale (?) Version unseres Codes geschrieben. Da es sich um eine konstante Geschwindigkeit des Steppers handelt, gibt es einen Zusammenhang zwischen der Zeit und den steps, die der Motor geht. Die Variablen gehen auf 1, wenn in dem jeweiligen zeitlichen Intervall (step-Bereich) das Signal des Sensors eine bestimmte Zahl überschreitet. Um dies zu testen, haben wir uns im Monitor die steps, das Signal des Lichtsensors und die Counter untereinander anzeigen lassen und haben bei verschiedenen Step-Anzahlen Licht auf den Sensor gelassen und überprüft, ob der Counter steigt. Anschließend haben wir 2 LEDs (eine grüne, eine rote) angeschlossen, die jeweils für einen bestimmten Counter, also Bereich standen. Leuchten sollten diese aber erst, wenn der Motor die 90° gedreht hat. Daher haben wir auch dies als Bedingung in unseren Code aufgenommen, damit nach Ablauf der 90° entweder eine der beiden, beide oder gar keine leuchtet, jedoch keine vorher leuchtet und auch keine wieder ausgeht. Dies hat einwandfrei funktioniert, was unsere Laune bezogen auf das Projekt wenigstens ein bisschen gebessert hat.
+
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/IMG_2771.jpg" width="1500">
+
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/2ledh.png" width="1500">
 
 ### Montag, der 04.02.2019<a name="12"></a>
 
