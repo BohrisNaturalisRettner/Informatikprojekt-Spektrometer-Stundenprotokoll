@@ -195,7 +195,7 @@ Auch an diesem Montag standen erneut das Stundenprotokoll und die Projektseite i
 
 ## Dienstag, der 26.02.2019<a name="19"></a>
 
-In der heutigen Doppelstunde haben wir weitere Verbesserungen am Auswertungsverfahren vorgenommen. Einerseits haben wir die Geschwindigkeit des Motors stark reduziert, in der Hoffnung das dieser dadurch stabiler läuft und uns die Auswertung der Orte an denen Licht wahrgenommen wird, leichter fällt. Andererseits haben wir die 90°, die der Motor zurücklegt in kleinere Einzelbereiche aufgeteilt, durch weitere Variablen. Zunächst haben wir mit 9 Variablen gearbeitet, allerdings war uns natürlich klar, das neun Variablen bei weitem nicht reichen um konkrete Winkel festzustellen. Deswegen haben wir noch im Unterricht eine Kopie des Codes mit 32 Variablen angefertigt und eine Version mit 64 Variablen begonnen. Diese haben wir am selben Abend noch beendet und zusätzlich eine Version mit 128 Variablen geschrieben. Mit dieser kann man den Winkel nun auf 0,7° Grad genau bestimmen.
+In der heutigen Doppelstunde haben wir weitere Verbesserungen am Auswertungsverfahren vorgenommen. Einerseits haben wir die Geschwindigkeit des Motors stark reduziert, in der Hoffnung, dass dieser dadurch stabiler läuft und uns die Auswertung der Orte, an denen Licht wahrgenommen wird, leichter fällt. Andererseits haben wir die 90°, die der Motor zurücklegt, durch weitere Variablen in kleinere Einzelbereiche aufgeteilt. Zunächst haben wir mit 9 Variablen gearbeitet, allerdings war uns natürlich klar, das neun Variablen bei weitem nicht reichen, um konkrete Winkel festzustellen. Deswegen haben wir noch im Unterricht eine Kopie des Codes mit 32 Variablen angefertigt und eine Version mit 64 Variablen begonnen. Diese haben wir am selben Abend noch beendet und zusätzlich eine Version mit 128 Variablen geschrieben. Mit dieser kann man den Winkel nun auf 0,7° Grad genau bestimmen.
 
 <img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/nesute%20neun.png" width="1500">
 
@@ -207,7 +207,7 @@ Nach den Problemen, die in der letzten Zeit durch die unebene Holzplatte aufgetr
 
 ## Dienstag, der 05.03.2019<a name="21"></a>
 
-Heute haben wir den ersten "richtigen" Versuch durchgeführt, bei dem wir dieses mal auch die Wellenlänge berechnet haben. Die Wellenlänge des Lasers, den wir für unsere Versuche benutzen, beträgt 650nm und unser gemessener/errechneter Wert beträgt 620nm. Dieser Wert erscheint auf den ersten Blick sehr gut, allerdings ist er noch mit einigen Faktoren verbunden, die unsere Messgenauigkeit erheblich einschränken. Zum einen läuft die Bewegung des Stepper-Motors immer noch etwas unrund und zum anderen haben wir den "Nullpunkt" der Bewegung nicht festgelegt und verschieben den Arm immer per hand auf den geschätzten "Nullpunkt".
+Heute haben wir den ersten "richtigen" Versuch durchgeführt, bei dem wir dieses Mal auch die Wellenlänge berechnet haben. Die Wellenlänge des Lasers, den wir für unsere Versuche benutzen, beträgt 650nm und unser gemessener/errechneter Wert beträgt 620nm. Dieser Wert erscheint auf den ersten Blick sehr gut, allerdings ist er noch mit einigen Faktoren verbunden, die unsere Messgenauigkeit erheblich einschränken. Zum einen läuft die Bewegung des Stepper-Motors immer noch etwas unrund und zum anderen haben wir den "Nullpunkt" der Bewegung nicht festgelegt und verschieben den Arm immer per Hand auf den geschätzten "Nullpunkt".
 
 ## Samstag, der 09.03.2019<a name="h"></a>
 
@@ -217,17 +217,17 @@ Endlich ist unser eigenes Gitter mit 1000 Strichen pro mm angekommen. Im Zuge de
 
 ## Montag, der 11.03.2019<a name="22"></a>
 
-Heute haben wir zunächst im Informatikunterricht unsere Github Projektseite gepflegt und daraufhin am Nachmittag einen weiteren Versuch mit nun vermeintlich besseren Versuchsbedingungen durchgeführt. Allerdings entsprach das Ergebnis keineswegs unseren Vorstellungen und ebenso im Ansatz nicht dem Soll-Wert. Wir beschlossen daraufhin den Startpunkt für den Dreharm fix festzulegen, da dies eine der wenigen übrig gebliebenen möglichen Fehlerquellen war.
+Heute haben wir zunächst im Informatikunterricht unsere Github Projektseite gepflegt und daraufhin am Nachmittag einen weiteren Versuch mit nun vermeintlich besseren Versuchsbedingungen durchgeführt. Allerdings entsprach das Ergebnis keineswegs unseren Vorstellungen und ebenso im Ansatz nicht dem Soll-Wert. Wir beschlossen daraufhin, den Startpunkt für den Dreharm fix festzulegen, da dies eine der wenigen übrig gebliebenen möglichen Fehlerquellen war.
 
 <img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/startpunkt.jpg" width="1500">
 
 ## Dienstag, der 12.03.2019<a name="i"></a>
 
-Bevor wir heute den nächsten Versuch vorgenommen haben, haben wir zunächst den Startpunkt für den Dreharm mit einem Stopper festgelegt. Zusätzlich dazu haben wir den Schlitz vor dem Rohr verbessert indem wir zum einen schwarzes Klebeband nahmen, das um ein vielfaches weniger lichtdurchlässig ist und zum anderen den Schlitz verkleinerten. Der Versuch unter den vermutlich besten Bedingungen bis dahin ergab einen Wert von 720nm anstelle des Soll-Wertes von 650nm. Dieser Wert ist für uns zwar durchaus akzeptabel, aber bei weitem nicht das Optimum. 
+Bevor wir heute den nächsten Versuch vorgenommen haben, haben wir zunächst den Startpunkt für den Dreharm mit einem Stopper festgelegt. Zusätzlich dazu haben wir den Schlitz vor dem Rohr verbessert, indem wir zum einen schwarzes Klebeband nahmen, das um ein Vielfaches weniger lichtdurchlässig ist und zum anderen den Schlitz verkleinerten. Der Versuch unter den vermutlich bis dahin besten Bedingungen  ergab einen Wert von 720nm anstelle des Soll-Wertes von 650nm. Dieser Wert ist für uns zwar durchaus akzeptabel, aber bei weitem nicht das Optimum. 
 
 ## Montag, der 18.03.2019<a name="23"></a>
 
-Aufgrund unserer anhaltenden Unzufriedenheit über die unrunde Bewegung des Armes, die so vermuten wir, zu den von uns erreichten Messergebnissen führt, überlegten wir welche Gründe dies noch haben könnte. Neben dem Stabilisationsrad, welches wir in naher Zukunft einmal ölen wollen, könnte auch der Stepper-Motor das Problem sein, da dieser eine verhältnismäßig große Masse bewegen muss. Wir überlegten nun, ob wir uns einen stärkeren Stepper-Motor kaufen.
+Aufgrund unserer anhaltenden Unzufriedenheit über die unrunde Bewegung des Armes, die - so vermuten wir - zu den ungenauen Messergebnissen führt, überlegten wir, welche Gründe dies noch haben könnte. Neben dem Stabilisationsrad, welches wir in naher Zukunft einmal ölen wollen, könnte auch der Stepper-Motor das Problem sein, da dieser eine verhältnismäßig große Masse bewegen muss. Wir überlegten nun, ob wir uns einen stärkeren Stepper-Motor kaufen.
 
 ## Dienstag, der 19.03.2019<a name="24"></a>
 
@@ -235,8 +235,8 @@ Auf unsere gestrigen Überlegungen zu einem stärkeren Stepper-Motor folgte heut
 
 ## Montag, der 25.03.2019<a name="25"></a>
 
-In der heutigen Informatikstunde haben wir uns noch einmal intensiv mit dem Stundenprotokoll auseinandergesetzt, das wir morgen abgeben müssen. An einigen Daten erfolgten Ergänzungen, die wir 
+In der heutigen Informatikstunde haben wir uns noch einmal intensiv mit dem Stundenprotokoll auseinandergesetzt.
 
 ## Dienstag, der 26.03.2019<a name="26"></a>
 
-Ebenso wie in der gestrigen Informatikstunde lag auch heute unser Fokus auf dem Stundenprotokoll, dessen Abgabe heute Abend erfolgt. In dieser Doppelstunde haben wir die letzten Punkte ergänzt und umformuliert.
+Ebenso wie in der gestrigen Informatikstunde lag auch heute unser Fokus auf dem Stundenprotokoll. In dieser Doppelstunde haben wir weitere Punkte ergänzt und umformuliert.
