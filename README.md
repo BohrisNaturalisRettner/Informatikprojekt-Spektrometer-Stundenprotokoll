@@ -60,7 +60,7 @@
 
 ## Montag, der 17.12.2018<a name="1"></a>
 
-In der heutigen Stunde begannen wir mit dem neuen Projekt im Fach Informatik. Wir haben uns bereits zuvor Gedanken gemacht wie unser nächstes Projekt aussehen soll und sind beide der Meinung, dass wir gerne Physical Computing machen würden. Der Zufall hat gewollt, dass HErr Buhl in den letzten Physikstunden viel mit dem Spektrometer gearbeitet hat und uns als "freiwillige Arbeit" die Möglichkeit gegeben hat ein solches selber zu bauen. So kamen wir auf die Idee Physik und Informatik zu verbinden und ein halbautomatisches Spektrometer zu bauen und zu programmieren. Wir stellten unsere Idee Herrn Buhl vor und dieser wirkte keineswegs abgeneigt.
+In der heutigen Stunde begannen wir mit dem neuen Projekt im Fach Informatik. Wir haben uns bereits zuvor Gedanken gemacht wie unser nächstes Projekt aussehen soll und sind beide der Meinung, dass wir gerne Physical Computing machen würden. Der Zufall hat gewollt, dass Herr Buhl in den letzten Physikstunden viel mit dem Spektrometer gearbeitet hat und uns als "freiwillige Arbeit" die Möglichkeit gegeben hat ein solches selber zu bauen. So kamen wir auf die Idee Physik und Informatik zu verbinden und ein halbautomatisches Spektrometer zu bauen und zu programmieren. Wir stellten unsere Idee Herrn Buhl vor und dieser wirkte keineswegs abgeneigt.
 
 ## Dienstag, der 18.12.2018<a name="2"></a>
 
@@ -104,6 +104,10 @@ code LED Fotosensor
 ## Dienstag, der 15.01.2019<a name="6"></a>
 
 Nachdem der Fotosensor und die Counter funktionieren, ist nun der Motor als letzte große Komponente an der Reihe. Für die Stromversorgung haben wir ein altes Handykabel, dessen Stecker vorne nicht mehr funktioniert hat, genommen und den Stecker abgetrennt. Das Kabel haben wir dann abisoliert und mit Hilfe einer Lüsterklemme mit Kabeln aus dem Starterkit verbunden, die in den Anschluss beim Controller Panel des Steppers passen. Die Stromversorgung stand also. Anschließend haben wir aus dem DroneBot Workshop weitere Codes übernommen und so verschiedene Geschwindigkeiten und Drehungen getestet. Nach einigem Probieren wurde uns klar, welche Teile der Befehle welche Konsequenzen bewirken und der ersten Version unseres Spektrometers steht jetzt nichts mehr im Wege. 
+
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/IMG_2708.jpg" alt="image" width="500">
+
+
 
 drone Bot Code
 kabelanschluss
