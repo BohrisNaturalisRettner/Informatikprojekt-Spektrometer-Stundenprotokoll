@@ -11,7 +11,9 @@
 
 ### [Montag, der 17.12.2018](#1)
 ### [Dienstag, der 18.12.2018](#2)
-### [Freitag, der 28.12.2018](3)
+### [Mittwoch, der 19.12.2018](#a)
+### [Montag, den 24.12.2018](#b)
+### [Freitag, der 28.12.2018](#3)
  </details> <hr>
 
 ## Januar
@@ -20,12 +22,13 @@
  <summary>Genauer</summary>
  
 ### [Dienstag, der 08.01.2019](#4)
+### [Samstag, der 12.01.2019](#c)
 ### [Montag, der 14.01.2019](#5) 
 ### [Dienstag, der 15.01.2019](#6)
+### [Freitag, der 18.01.2019](#d)
 ### [Samstag, der 19.01.2019](#7)
+### [Sonntag, der 20.01.2019](#e)
 ### [Montag, der 21.01.2019](#8)
-### [Dienstag, der 22.01.2019](#9)
-### [Dienstag, der 29.01.2019](#10)
  </details> <hr>
 
 ## Februar
@@ -34,8 +37,10 @@
  <summary>Genauer</summary>
  
 ### [Samstag, der 02.02.2019](#11)
+### [Sonntag, der 03.02.2019](#f)
 ### [Montag, der 04.02.2019](#12)
 ### [Dienstag, der 05.02.2019](#13)
+### [Samstag, der 09.02.2019](#g)
 ### [Montag, der 11.02.2019](#14)
 ### [Dienstag, der 12.02.2019](#15)
 ### [Montag, der 18.02.2019](#16)
@@ -51,7 +56,9 @@
 
 ### [Montag, der 04.03.2019](#20)
 ### [Dienstag, der 05.03.2019](#21)
+### [Samstag, der 09.03.2019](#h)
 ### [Montag, der 11.03.2019](#22)
+### [Dienstag, der 12.03.2019](#i)
 ### [Montag, der 18.03.2019](#23)
 ### [Dienstag, der 19.03.2019](#24)
 ### [Montag, der 25.03.2019](#25)
@@ -68,13 +75,13 @@ Heute haben wir uns dafür entschieden, mit dem Arduino zu arbeiten. Zum einen s
 
 <img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/Ledh.png" alt="image" width="1500">
 
-## Mittwoch, der 19.12.2018
+## Mittwoch, der 19.12.2018<a name="a"></a>
 
 Einer der wichtigsten Faktoren für unser Projekt wird die Erkennung der Maxima sein. Dafür haben wir den Fotosensor, den wir für unser Projekt brauchen, bei Herrn Buhl „in Auftrag“ gegeben. Dieser hat drei verschiedene Sensoren bestellt. Da wir, bis die Sensoren angekommen sind, nicht an dem Projekt an sich weiterarbeiten können, haben wir uns nach den ersten erfolgreichen Experimenten mit der LED gestern an die zweite wichtige Komponente (den Motor) gewagt. Wir haben uns für den Servo entschieden, da dieser am leichtesten zu verbinden und zu bedienen zu sein scheint und den voraussichtlich benötigten Bewegungsradius abdeckt. Den Servo haben wir über ein Potentiometer so angeschlossen, dass dieser sich bei Drehen des Potentiometers im gleichen Winkel mitdreht.  
 
 <img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/Servo%20Potentiometerh.png" alt="image" width="1500">
 
-## Montag, der 24.12.2018
+## Montag, der 24.12.2018<a name="b"></a>
 
 Heute habe ich (David) mich mit Herrn Buhl getroffen und die photo Sensoren bekommen. Natürlich konnten wir nicht abwarten, erste Experimente mit den Sensoren zu beginnen. Den simpelsten Sensor haben wir nach einer im Internet gefundenen Skizze an den analogen Anschluss des Arduino und  den Strom angeschlossen und den richtigen Widerstand gefunden. Den Wert des Sensors haben wir uns im Monitor des Arduino Editors anzeigen lassen. Nachdem wir ein Signal empfangen haben, haben wir auch den zweiten Teil der Skizze, die Kopplung an eine LED, umgesetzt und dafür den Code des Sensors mit dem der Led verknüpft. Hierbei leuchtet die LED, wenn der von dem Sensor gemessene Wert eine bestimmte Zahl überschreitet.
 
@@ -90,7 +97,7 @@ Heute haben wir uns ein weiteres Mal mit dem Fotosensor und dem Servo Motor besc
 
 <img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/Servo%20Lichtsensorh.png" alt="image" width="1500">
 
-## Samstag, der 12.01.2019
+## Samstag, der 12.01.2019<a name="c"></a>
 
 Bei der Beschäftigung mit Motoren sind wir nach Empfehlung von Herrn Buhl auf den Stepper Motor gestoßen. Dieser scheint perfekt zu sein, da er zwar nicht so schnell wie ein Servo arbeiten kann, dafür aber sehr präzise ist und ein deutlich stärkeres Haltemoment hat. Außerdem haben wir einen Steppermotor in dem Arduino Kit und müssen daher nicht einmal einen Motor kaufen. Bei der Beschäftigung mit dem Steppermotor hat uns vor allem das youtube video von „DroneBot Workshop“ geholfen, das die Funktionsweise der Stepper erklärt, auf viele andere Fragen, wie den Anschluss an den Arduino, eingeht und in der Niederschrift für genau unseren Stepper eine Vorlage für den Code zu Verfügung stellt. Der Link zu dem Youtube Video lautet: https://youtu.be/0qwrnUeSpYQ. Dieses Videos hat uns noch mehr von Stepper Motoren als die für uns optimale Lösung überzeugt. Ein Punkt, der in dem Video jedoch angesprochen wurde, war, dass der Stepper im Gegensatz zu dem Servomotor eine externe Stromversorgung benötigt. Da wir diese noch nicht haben, ist für uns die Arbeit mit dem Steppermotor erstmal aufgeschoben.
 
@@ -114,7 +121,7 @@ Nachdem der Fotosensor und die Counter funktionieren, ist nun der Motor als letz
 
 <img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/handykabel.jpg" alt="image" width="1500">
 
-## Freitag, der 18.01.2019
+## Freitag, der 18.01.2019<a name="d"></a>
 
 Heute haben wir das Konzept für den Bau erstellt. Der Aufbau soll in eine Kiste integriert werden, die den ganzen Aufbau verdunkelt und die Messergebnisse damit optimiert. Außerdem muss so nicht immer der ganze Raum verdunkelt werden und das Spektrometer ist universeller einsetzbar. Des weiteren ist es wichtig, das Gitter zentral über dem Drehpunkt aufzustellen. Dafür planen wir einen Tisch, auf dem Gitter und Lichtquelle sitzen und der über den Motor ragt. Der restliche Teil ist von dem Spektrometer in der Schule inspiriert. Gemessen wird durch einen Schwenkarm, an dem sich ein Rohr befindet, um den Winkel zu präzisieren. Jedoch gucken wir nicht durch das Ende der Röhre wie in der Schule, sondern an seinem Ende befindet sich der Photosensor. Ein weiterer Entschluss ist, dass wir montags nicht für eine Stunde Unterricht alle Materialien den ganzen Tag durch die Schule tragen, sondern wir in dieser Stunde an Github und dienstags an dem Projekt selber arbeiten, wodurch in Zukunft auch kaum Einträge zu Montagen kommen werden.
 
@@ -122,7 +129,7 @@ Heute haben wir das Konzept für den Bau erstellt. Der Aufbau soll in eine Kiste
 
 Heute haben wir Besorgungen für den ersten Bau gemacht. Im Baumarkt haben wir für uns nützlich aussehende Komponenten gekauft. Dazu gehörte eine Gardinenstange samt Halterung als Rohr, Lautsprecherkabel als weitere Kabelverbindungen, ein Lötkolben mit Lötzinn, eine Kabelbox, in der der Lichtsensor nochmal extra abgedunkelt ist, Schrauben, Schrumpfkabel, Kabelverbinder und das Holz für den Untergrund der Konstruktion und die Box am Ende.
 
-## Sonntag, der 20.01.2019
+## Sonntag, der 20.01.2019<a name="e"></a>
 
 Heute haben wir eine erste Konstruktion aufgebaut. wir haben den Arduino sowie zwei Holzblöcke (aus dem Keller) auf die Holzplatte geschraubt. Zwischen den Holzblöcken haben wir den Stepper befestigt. Dieser konnte sich nun drehen. Außerdem haben wir einige der Verbindungen gelötet und den Photosensor in die Kabelbox gesteckt. An der einen Seite haben wir ein kleines Loch in die Box gebohrt, damit der Sensor „herausgucken“ kann, aber von den anderen Seiten fest sitzt und abgedunkelt ist. Aufgefallen ist uns, dass der Motor und die Konstruktion im allgemeinen den Schwenkarm nicht auf einer Höhe halten können werden. Es fehlt also noch ein Schwenkarm und die Befestigung desselben. 
 
@@ -138,7 +145,7 @@ Nachdem wir uns in der Informatikstunde näher mit Github auseinandergesetzt hab
 
 Im Baumarkt haben wir viel gefunden, aber auch auf Nachfrage bei Mitarbeitern kein passendes Teil zum verbinden. Das ist schon sehr frustrierend, da ohne diese Verbindung nicht mal erste Testläufe möglich sind. 
 
-## Sonntag, der 03.02.2019
+## Sonntag, der 03.02.2019<a name="f"></a>
 
 Um die Funktionsweise nochmal genauer zu überprüfen, haben wir heute die finale (?) Version unseres Codes geschrieben. Da es sich um eine konstante Geschwindigkeit des Steppers handelt, gibt es einen Zusammenhang zwischen der Zeit und den steps, die der Motor geht. Die Variablen gehen auf 1, wenn in dem jeweiligen zeitlichen Intervall (step-Bereich) das Signal des Sensors eine bestimmte Zahl überschreitet. Um dies zu testen, haben wir uns im Monitor die steps, das Signal des Lichtsensors und die Counter untereinander anzeigen lassen und haben bei verschiedenen Step-Anzahlen Licht auf den Sensor gelassen und überprüft, ob der Counter steigt. Anschließend haben wir 2 LEDs (eine grüne, eine rote) angeschlossen, die jeweils für einen bestimmten Counter, also Bereich standen. Leuchten sollten diese aber erst, wenn der Motor die 90° gedreht hat. Daher haben wir auch dies als Bedingung in unseren Code aufgenommen, damit nach Ablauf der 90° entweder eine der beiden, beide oder gar keine leuchtet, jedoch keine vorher leuchtet und auch keine wieder ausgeht. Dies hat einwandfrei funktioniert, was unsere Laune bezogen auf das Projekt wenigstens ein bisschen gebessert hat.
 
@@ -158,7 +165,7 @@ In der heutigen Doppelstunde haben wir alle Materialen mitgenommen, konnten aber
 
 <img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/schlitz.jpg" width="1500">
 
-## Samstag, der 09.02.2019
+## Samstag, der 09.02.2019<a name="g"></a>
 
 Die in der letzten Doppelstunde gebaute Konstruktion hatte jedoch noch einige Fehler. Zum Beispiel war die Stepanzahl nicht begrenzt. Heute haben wir versucht, dieses Problem zu lösen. Jedoch hat sich der Motor, je nachdem, was wir probiert haben, entweder immer weiter gedreht oder, wenn er nach einer Vierteldrehung auf dem Weg zurück war, sich unendlich in die andere Richtung gedreht.
 
@@ -202,7 +209,7 @@ Nach den Problemen, die in der letzten Zeit durch die unebene Holzplatte aufgetr
 
 Heute haben wir den ersten "richtigen" Versuch durchgeführt, bei dem wir dieses mal auch die Wellenlänge berechnet haben. Die Wellenlänge des Lasers, den wir für unsere Versuche benutzen, beträgt 650nm und unser gemessener/errechneter Wert beträgt 620nm. Dieser Wert erscheint auf den ersten Blick sehr gut, allerdings ist er noch mit einigen Faktoren verbunden, die unsere Messgenauigkeit erheblich einschränken. Zum einen läuft die Bewegung des Stepper-Motors immer noch etwas unrund und zum anderen haben wir den "Nullpunkt" der Bewegung nicht festgelegt und verschieben den Arm immer per hand auf den geschätzten "Nullpunkt".
 
-## Samstag, der 09.03.2019
+## Samstag, der 09.03.2019<a name="h"></a>
 
 Endlich ist unser eigenes Gitter mit 1000 Strichen pro mm angekommen. Im Zuge dessen haben wir auch endlich eine ordentliche Halterung sowohl für das Gitter, als auch für den Laser gebaut, damit diese nun feststehen und keine weiteren Ungenauigkeiten mit sich bringen.
 
@@ -214,7 +221,7 @@ Heute haben wir zunächst im Informatikunterricht unsere Github Projektseite gep
 
 <img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/startpunkt.jpg" width="1500">
 
-## Dienstag, der 12.03.2019
+## Dienstag, der 12.03.2019<a name="i"></a>
 
 Bevor wir heute den nächsten Versuch vorgenommen haben, haben wir zunächst den Startpunkt für den Dreharm mit einem Stopper festgelegt. Zusätzlich dazu haben wir den Schlitz vor dem Rohr verbessert indem wir zum einen schwarzes Klebeband nahmen, das um ein vielfaches weniger lichtdurchlässig ist und zum anderen den Schlitz verkleinerten. Der Versuch unter den vermutlich besten Bedingungen bis dahin ergab einen Wert von 720nm anstelle des Soll-Wertes von 650nm. Dieser Wert ist für uns zwar durchaus akzeptabel, aber bei weitem nicht das Optimum. 
 
