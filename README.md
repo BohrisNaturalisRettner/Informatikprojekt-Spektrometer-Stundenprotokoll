@@ -107,7 +107,7 @@ Nachdem der Fotosensor und die Counter funktionieren, ist nun der Motor als letz
 
 <img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/IMG_2708.jpg" alt="image" width="500">
 
-
+<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/IMG_2771.jpg" width="500">
 
 drone Bot Code
 kabelanschluss
