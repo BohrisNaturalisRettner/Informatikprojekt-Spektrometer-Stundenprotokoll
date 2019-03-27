@@ -78,6 +78,8 @@ Bild Servo
 
 Heute habe ich (David) mich mit Herrn Buhl getroffen und die photo Sensoren bekommen. Natürlich konnten wir nicht abwarten, erste Experimente mit den Sensoren zu beginnen. Den simpelsten Sensor haben wir nach einer im Internet gefundenen Skizze an den analogen Anschluss des Arduino und  den Strom angeschlossen und den richtigen Widerstand gefunden. Den Wert des Sensors haben wir uns im Monitor des Arduino Editors anzeigen lassen. Nachdem wir ein Signal empfangen haben, haben wir auch den zweiten Teil der Skizze, die Kopplung an eine LED, umgesetzt und dafür den Code des Sensors mit dem der Led verknüpft. Hierbei leuchtet die LED, wenn der von dem Sensor gemessene Wert eine bestimmte Zahl überschreitet.
 
+https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/fotosensor%20LED.JPG
+https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/Servo%20Lichtsensor.PNG
 bild Skizze
 bild eigener code
 
@@ -99,15 +101,13 @@ Bei der Beschäftigung mit Motoren sind wir nach Empfehlung von Herrn Buhl auf d
 
 Heute haben wir eine weitere Funktionsweise unseres Projektes überprüft. Wir wollten anders als bisher keine direkte Reaktion von LEDs, Servos etc. bewirken, sondern erreichen, dass sich die Informationen gemerkt und erst am Ende addiert ausgelesen werden. Dabei haben wir uns von unserem ersten Projekt auf Code.org inspirieren lassen. Dort haben wir vermehrt mit Variablen gearbeitet, die bei bestimmten Aktionen hochgehen und sich so Informationen „merken“. Um dies praktisch in einem Versuch umzusetzen, haben wir zwei Lichtsensoren an eine Led gekoppelt. Diese soll nur leuchten, wenn der eine Lichtsensor ein sehr helles und der andere ein sehr dunkles Licht wahrnimmt. Dabei ist die zeitliche Abfolge egal, da bei Erreichen eines bestimmten Wertes eines Sensors eine Variable (hier: Counter genannt) auf 1 gesetzt wird. Nachdem das 2. Ereignis eintritt, sind nun beide Counter auf 1 und die LED leuchtet somit. 
 
+https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/2%20Sensoren%20%2B%20LED.PNG
 code LED Fotosensor
 
 ## Dienstag, der 15.01.2019<a name="6"></a>
 
 Nachdem der Fotosensor und die Counter funktionieren, ist nun der Motor als letzte große Komponente an der Reihe. Für die Stromversorgung haben wir ein altes Handykabel, dessen Stecker vorne nicht mehr funktioniert hat, genommen und den Stecker abgetrennt. Das Kabel haben wir dann abisoliert und mit Hilfe einer Lüsterklemme mit Kabeln aus dem Starterkit verbunden, die in den Anschluss beim Controller Panel des Steppers passen. Die Stromversorgung stand also. Anschließend haben wir aus dem DroneBot Workshop weitere Codes übernommen und so verschiedene Geschwindigkeiten und Drehungen getestet. Nach einigem Probieren wurde uns klar, welche Teile der Befehle welche Konsequenzen bewirken und der ersten Version unseres Spektrometers steht jetzt nichts mehr im Wege. 
 
-<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/IMG_2708.jpg" alt="image" width="500">
-
-<img src="https://github.com/BohrisNaturalisRettner/Informatikprojekt-Spektrometer-Stundenprotokoll/blob/master/IMG_2771.jpg" width="500">
 
 drone Bot Code
 kabelanschluss
